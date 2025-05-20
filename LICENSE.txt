@@ -1,0 +1,15 @@
+EvaLMSclassifR — Binary Distribution License
+
+This repository distributes a precompiled binary version of the EvaLMSclassifR R package for academic, non-commercial use only.
+
+Copyright (c) 2024, Alexandre Godmer, Quentin Giai Gianetto. All rights reserved.
+
+- You may use this software for research and reproducibility purposes.
+- You may not redistribute, reverse-engineer, modify, or use this software for commercial purposes.
+- The source code is not provided in this repository.
+
+If you wish to obtain a copy of the source code, please contact the author and describe your intended use. Access may be granted for academic collaborations only.
+
+Contact: alexandre.godmer@aphp.fr
+
+This repository does not grant any license under open source terms. All rights reserved.
