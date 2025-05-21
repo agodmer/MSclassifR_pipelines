@@ -17,7 +17,12 @@ Submitted to *Expert Systems with Applications*.
 To install the `EvaLMSclassifR` package directly from GitHub without accessing the source code:
 
 ```r
-install.packages("devtools") # if not already installed
+if (!requireNamespace("remotes", quietly = TRUE))
+  install.packages("remotes")
 
-devtools::install_url("https://github.com/<ton_user>/EvaLMSclassifR-binary/raw/main/EvaLMSclassifR_0.3.0.tar.gz",
-                      type = "source")
+remotes::install_url(
+  "https://github.com/agodmer/MSclassifR_pipelines/raw/main/evalmsclassifr_0.1.0.zip",
+  repos = NULL,
+  type = ifelse(.Platform$OS.type == "windows", "win.binary", "source")
+)
+
